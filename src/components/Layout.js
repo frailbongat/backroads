@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import { Children } from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const layout = ({ children }) => {
   return (
