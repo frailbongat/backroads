@@ -1,7 +1,8 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const tours = () => {
-  return <div>Hello from tours!</div>
+  return <Layout>Hello from tours!</Layout>
 }
 
 export default tours
