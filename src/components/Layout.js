@@ -1,10 +1,10 @@
 import React from "react"
-import Navbar from "../Navbar/Navbar"
-import Footer from "../Footer/Footer"
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./Layout.css"
+import "../css/layout.css"
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
@@ -14,4 +14,4 @@ const layout = ({ children }) => {
   )
 }
 
-export default layout
+export default Layout
